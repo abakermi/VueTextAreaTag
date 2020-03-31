@@ -1,0 +1,67 @@
+{
+  "name": "vue-textarea-tag",
+  "version": "0.0.0",
+  "author": {
+		"name": "Abdelhak Akermi",
+		"email": "abdelhak.akermi@gmail.com"
+	},
+  "publishConfig": {
+		"access": "public"
+	},
+  "description": "vue component to add tags to textarea element",
+  "keywords": [
+    "component",
+    "Vue.js",
+    "textarea",
+    "tag"
+  ],
+  "license": "MIT",
+  "main": "dist/VueTextAreaTag.cjs.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/abakermi/vue-textarea-tag",
+  "bugs": "https://github.com/abakermi/vue-textarea-tag/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abakermi/vue-textarea-tag.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run release",
+    "clean": "rm -rf dist",
+    "play": "poi --open --config play.config.js",
+    "build": "bili",
+    "build:play": "poi build --config play.config.js",
+    "lint": "eslint --ext js,ts,vue src test",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "npm run lint && npm run test:unit",
+    "test:unit": "jest",
+    "test:dev": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@types/jest": "^25.1.0",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "^7.0.0-bridge.0",
+    "bili": "^4.8.1",
+    "eslint": "^6.2.1",
+    "eslint-config-ktsn-vue": "^2.0.0",
+    "jest": "^24.9.0",
+    "poi": "^10.2.9",
+    "postcss": "^7.0.17",
+    "prettier": "1.19.1",
+    "prettier-config-ktsn": "^1.0.0",
+    "rollup": "^1.20.1",
+    "rollup-plugin-css-only": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "vue": "^2.6.10",
+    "vue-jest": "^3.0.4",
+    "vue-play": "^3.2.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
