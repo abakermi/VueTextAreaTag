@@ -28,7 +28,6 @@
     "url": "https://github.com/abakermi/vue-textarea-tag.git"
   },
   "scripts": {
-    "prepublishOnly": "npm run release",
     "clean": "rm -rf dist",
     "play": "poi --open --config play.config.js",
     "build": "bili",
