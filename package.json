@@ -1,13 +1,13 @@
 {
   "name": "vue-textarea-tag",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": {
-		"name": "Abdelhak Akermi",
-		"email": "abdelhak.akermi@gmail.com"
-	},
+    "name": "Abdelhak Akermi",
+    "email": "abdelhak.akermi@gmail.com"
+  },
   "publishConfig": {
-		"access": "public"
-	},
+    "access": "public"
+  },
   "description": "vue component to add tags to textarea element",
   "keywords": [
     "component",
